@@ -4,7 +4,7 @@ apply from:'https://mars-devops.tos-cn-beijing.volces.com/mars-base/mars_publish
 
 android {
     defaultConfig {
-        applicationId "com.taptap.demolib"
+        compileSdkVersion 31
         minSdkVersion 21
         targetSdkVersion 31
     }
