@@ -1,0 +1,2 @@
+rootProject.name = "DemoLib"
+include ':demo-lib'

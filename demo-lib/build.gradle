@@ -1,0 +1,23 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply from:'https://mars-devops.tos-cn-beijing.volces.com/mars-base/mars_publish.gradle'
+
+android {
+    defaultConfig {
+        applicationId "com.taptap.demolib"
+        minSdkVersion 21
+        targetSdkVersion 31
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.6.0'
+}
